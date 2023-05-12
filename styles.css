@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212A3E;
+}
+
+#logo{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    margin: 20px;
+    font-size: 50px;
+    opacity: .7;
+    letter-spacing: 6px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.display{
+    background-color: #394867;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 280px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+    padding: 1rem;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    background-color: #394867;
+    border: 0;
+    outline: 0;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+button:hover{
+    height: 65px;
+    width: 65px;
+}
+
+button:active{
+    height: 55px;
+    width: 55px;
+}
+
+#message{
+    color: white;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
